@@ -62,6 +62,7 @@ button {
 .info {
     display: flex;
     flex-flow: column;
+    margin-bottom: 70px;
 }
 
 .info-header {
@@ -85,4 +86,27 @@ button {
 .box {
     background-color: white;
     padding: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    background-color: #e5e7eb;
+    padding: 30px;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937; 
+    align-self: flex-end;
+    margin-top: -30px;
 }
