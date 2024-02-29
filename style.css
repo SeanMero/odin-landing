@@ -58,3 +58,31 @@ button {
     padding: 100px;
     background-color: grey;
 }
+
+.info {
+    display: flex;
+    flex-flow: column;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illos {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.illos2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 100px;
+}
