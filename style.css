@@ -1,0 +1,60 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex-flow: column nowrap;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.image {
+    padding: 100px;
+    background-color: grey;
+}
