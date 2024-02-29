@@ -125,3 +125,9 @@ button {
 .call-text-smal {
     font-size: 18px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
